@@ -14,5 +14,5 @@ module "service" {
   environment  = var.environment
   region       = var.region
   app_port     = var.app_port
-  network_id   = module.network.id
+  network_id   = module.network.network_id
 }
